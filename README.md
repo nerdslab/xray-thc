@@ -25,7 +25,7 @@ Microstructures were annotated with the following values: background = 0, cells 
 
 ![Microstructure Annotation Regions](https://github.com/nerdslab/xray-thc-data/blob/master/images/Microstructure-Annos.png)
 
-Relevant notebooks: Pulling down pixel-level annotations, Pulling down raw data and pixel-level annotations jointly 
+Relevant notebooks: [Pulling down pixel-level annotations](https://github.com/nerdslab/xray-thc-data/blob/master/data_access_notebooks/annotation_access.ipynb), [Pulling down raw data and pixel-level annotations jointly](https://github.com/nerdslab/xray-thc-data/blob/master/data_access_notebooks/training_data_access.ipynb)
 
 # Data Access
 Python notebooks for pulling down the data from BossDB, along with an instructional README, are provided in the "data_access_notebooks" directory.
