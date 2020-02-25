@@ -28,7 +28,7 @@ Microstructures were annotated with the following values: background = 0, cells 
 
 ![Microstructure Annotation Regions](https://github.com/nerdslab/xray-thc-data/blob/master/images/Microstructure-Annos.png)
 
-Relevant notebooks:
+Relevant notebooks (please check requirements [here](https://github.com/nerdslab/xray-thc-data/tree/master/data_access_notebooks) before using notebooks):
 1. [Pulling down pixel-level annotations](https://github.com/nerdslab/xray-thc-data/blob/master/data_access_notebooks/annotation_access.ipynb)
 2. [Pulling down raw data and pixel-level annotations jointly](https://github.com/nerdslab/xray-thc-data/blob/master/data_access_notebooks/training_data_access.ipynb)
 
