@@ -7,7 +7,7 @@ This dataset consists of a 3D brain volume, generated via microCT, spanning from
 ![Raw Image Example Slice (z = 309)](https://github.com/nerdslab/xray-thc-data/blob/master/images/309_Raw-Data.png)
 
 Relevant notebooks:
-1. Pulling down raw data
+1. [Pulling down raw data](https://github.com/nerdslab/xray-thc-data/blob/master/data_access_notebooks/raw_data_access.ipynb)
 
 # Annotation Description
 # Brain Area Classification
@@ -18,8 +18,8 @@ Brain areas were annotated with the following values: Clear Label = 0, Cortex = 
 ![Brain Area Annotation Sample](https://github.com/nerdslab/xray-thc-data/blob/master/images/Brain-Area-Annos.PNG)
 
 Relevant notebooks:
-1. Pulling down area-level annotations
-2. Pulling down raw data only from ROI of choice 
+1. [Pulling down area-level annotations](https://github.com/nerdslab/xray-thc-data/blob/master/data_access_notebooks/roi_access.ipynb)
+2. [Pulling down raw data only from ROI of choice](https://github.com/nerdslab/xray-thc-data/blob/master/data_access_notebooks/mask_roi_example.ipynb)
 
 # Microstructure Segmentation
 Microstructure segmentation (of cell bodies, blood vessels, and myelinated axons) are available for 4 regions of interest: Cortex, Striatum, Thalamus (mostly VP and some TRN), and Zona Incerta. For each of these 4 regions, there is a 256x256x360 (x,y,z) volume available for which slice z (0 indexed) = 30, 60, 90, 120, 150, 180, 210, 240, 270, 300, and 330 have been densely annotated.
