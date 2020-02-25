@@ -1,5 +1,5 @@
 # xray-thc-data
-A three-dimensional X-ray microtomography thalamocortical dataset for characterizing brain heterogeneity: paper, data
+A three-dimensional X-ray microtomography thalamocortical dataset for characterizing brain heterogeneity: [Paper](http://bossdb.org/project/prasad2020), Data(http://bossdb.org/project/prasad2020)
 
 # Dataset Description
 This dataset consists of a 3D brain volume, generated via microCT, spanning from hypothalamus to cortex. The dataset has dimension 720x1420x5805 (z,y,x), with a 1.17um isotropic voxel volume. The brain areas available are Cortex, Striatum, TRN, VP, Zona Incerta, Internal Capsule, Hypothalamus, and Corpus Callosum. Human-annotated ground truth data are available for both brain area classification and samples for microstructure segmentation of 4 brain areas.
