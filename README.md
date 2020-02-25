@@ -17,7 +17,7 @@ Brain areas were annotated with the following values: Clear Label = 0, Cortex = 
 # Microstructure Segmentation
 Microstructure segmentation (of cell bodies, blood vessels, and myelinated axons) are available for 4 regions of interest: Cortex, Striatum, Thalamus (mostly VP and some TRN), and Zona Incerta. For each of these 4 regions, there is a 256x256x360 (x,y,z) volume available for which slice z (0 indexed) = 30, 60, 90, 120, 150, 180, 210, 240, 270, 300, and 330 have been densely annotated.
 
-Microstructures were annotated with the following values: background = 0, cells = 1, blood vessels = 2, and myelinated axons = 3.
+Microstructures were annotated with the following values: background = 0, cells = 1, blood vessels = 2, myelinated axons = 3.
 
 ![Microstructure Annotation Regions](https://github.com/nerdslab/xray-thc-data/blob/master/images/Microstructure-Annos.png)
 
