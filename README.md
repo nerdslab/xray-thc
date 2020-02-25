@@ -1,4 +1,4 @@
-# xray-thc-data
+# Thalamocortical sample imaged with X-ray microCT
 A three-dimensional X-ray microtomography thalamocortical dataset for characterizing brain heterogeneity: [Paper](http://bossdb.org/project/prasad2020), [Data](http://bossdb.org/project/prasad2020)
 
 # Dataset Description
