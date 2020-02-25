@@ -14,7 +14,7 @@ Using pip (https://docs.python.org/3/installing/index.html), you can install the
 pip install -r requirements.txt
 ```
 
-When using these notebooks, the data at https://bossdb.org/prasad2020 is accessed.
+When using these notebooks, the data at https://bossdb.org/project/prasad2020 is accessed.
 
 The paper introduces a 3D neuroanatomical dataset which encompasses both heterogeneous ROIs and diverse microstructures including: axons, cell bodies and blood vessels (vasculature). An in vitro sample was used in slice physiology and imaged with X-ray microCT. The overall dataset is 720x1420x5805 pixels, with a 1.17um isotropic voxel volume. Cutouts outside of this volume will return 0 values. 
 
