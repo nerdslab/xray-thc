@@ -10,7 +10,7 @@ This dataset consists of a 3D brain volume, generated via microCT, spanning from
 ![Raw Image Example Slice (z = 309)](https://github.com/nerdslab/xray-thc-data/blob/master/images/309_Raw-Data.png)
 --->
 
-<img src="./images/309_Raw-Data.png">
+<img src="./images/309_Raw-Data-compressed.png">
 
 Relevant notebooks:
 1. [Pulling down raw data](https://github.com/nerdslab/xray-thc-data/blob/master/data_access_notebooks/raw_data_access.ipynb)
@@ -25,7 +25,7 @@ Brain areas were annotated with the following values: Clear Label = 0, Cortex = 
 ![Brain Area Annotation Sample](https://github.com/nerdslab/xray-thc-data/blob/master/images/Brain-Area-Annos.PNG)
 --->
 
-<img src="./images/Brain-Area-Annos.PNG">
+<img src="./images/Brain-Area-Annos-compressed.png">
 
 Relevant notebooks:
 1. [Pulling down area-level annotations](https://github.com/nerdslab/xray-thc-data/blob/master/data_access_notebooks/roi_access.ipynb)
