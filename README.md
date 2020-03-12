@@ -8,7 +8,7 @@ This dataset consists of a 3D brain volume, generated via microCT, spanning from
 ![Raw Image Example Slice (z = 309)](https://github.com/nerdslab/xray-thc-data/blob/master/images/309_Raw-Data.png)
 --->
 
-<img src="/images/309_Raw-Data.png">
+<img src="./images/309_Raw-Data.png">
 
 Relevant notebooks:
 1. [Pulling down raw data](https://github.com/nerdslab/xray-thc-data/blob/master/data_access_notebooks/raw_data_access.ipynb)
@@ -23,7 +23,7 @@ Brain areas were annotated with the following values: Clear Label = 0, Cortex = 
 ![Brain Area Annotation Sample](https://github.com/nerdslab/xray-thc-data/blob/master/images/Brain-Area-Annos.PNG)
 --->
 
-<img src="/images/Brain-Area-Annos.PNG">
+<img src="./images/Brain-Area-Annos.PNG">
 
 Relevant notebooks:
 1. [Pulling down area-level annotations](https://github.com/nerdslab/xray-thc-data/blob/master/data_access_notebooks/roi_access.ipynb)
@@ -38,7 +38,7 @@ Microstructures were annotated with the following values: background = 0, cells 
 ![Microstructure Annotation Regions](https://github.com/nerdslab/xray-thc-data/blob/master/images/Microstructure-Annos.png)
 --->
 
-<img src="/images/Microstructure-Annos.png">
+<img src="./images/Microstructure-Annos.png">
 
 Relevant notebooks (please check requirements [here](https://github.com/nerdslab/xray-thc-data/tree/master/data_access_notebooks) before use):
 1. [Pulling down pixel-level annotations](https://github.com/nerdslab/xray-thc-data/blob/master/data_access_notebooks/annotation_access.ipynb)
