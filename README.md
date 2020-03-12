@@ -17,7 +17,9 @@ Brain area classification annotations are available for all brain areas. Complet
 
 Brain areas were annotated with the following values: Clear Label = 0, Cortex = 1, Striatum = 2, TRN = 3, VP = 4, Zona Incerta = 5, Internal Capsule = 6, Hypothalamus = 7, Corpus Callosum = 8.
 
+<!---
 ![Brain Area Annotation Sample](https://github.com/nerdslab/xray-thc-data/blob/master/images/Brain-Area-Annos.PNG)
+--->
 
 Relevant notebooks:
 1. [Pulling down area-level annotations](https://github.com/nerdslab/xray-thc-data/blob/master/data_access_notebooks/roi_access.ipynb)
@@ -28,7 +30,9 @@ Microstructure segmentation (of cell bodies, blood vessels, and myelinated axons
 
 Microstructures were annotated with the following values: background = 0, cells = 1, blood vessels = 2, myelinated axons = 3.
 
+<!---
 ![Microstructure Annotation Regions](https://github.com/nerdslab/xray-thc-data/blob/master/images/Microstructure-Annos.png)
+--->
 
 Relevant notebooks (please check requirements [here](https://github.com/nerdslab/xray-thc-data/tree/master/data_access_notebooks) before use):
 1. [Pulling down pixel-level annotations](https://github.com/nerdslab/xray-thc-data/blob/master/data_access_notebooks/annotation_access.ipynb)
