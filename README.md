@@ -46,3 +46,10 @@ Relevant notebooks (please check requirements [here](https://github.com/nerdslab
 
 # Data Access
 Python notebooks for pulling down the data from BossDB, along with an instructional README, are provided in the "data_access_notebooks" directory.
+
+# Team
+- Aishwarya Balwani
+- Eva Dyer
+- William Gray Roncal
+- Erik Johnson
+- Joseph Miano
