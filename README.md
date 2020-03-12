@@ -1,6 +1,8 @@
 # Thalamocortical sample imaged with X-ray microCT
 A three-dimensional X-ray microtomography thalamocortical dataset for characterizing brain heterogeneity: [Paper](http://bossdb.org/project/prasad2020), [Data](http://bossdb.org/project/prasad2020)
 
+Gneral requirements to run code associated with this project are Python 3.x and Jupyter notebooks. For further requirements on specific packages, please check [here](https://github.com/nerdslab/xray-thc/blob/master/data_access_notebooks/requirements.txt)
+
 # Dataset Description
 This dataset consists of a 3D brain volume, generated via microCT, spanning from hypothalamus to cortex. The dataset has dimension 720x1420x5805 (z,y,x), with a 1.17um isotropic voxel volume. The brain areas available are Cortex, Striatum, TRN, VP, Zona Incerta, Internal Capsule, Hypothalamus, and Corpus Callosum. Human-annotated ground truth data are available for both brain area classification and samples for microstructure segmentation of 4 brain areas.
 
@@ -40,7 +42,7 @@ Microstructures were annotated with the following values: background = 0, cells 
 
 <img src="./images/Microstructure-Annos.png">
 
-Relevant notebooks (please check requirements [here](https://github.com/nerdslab/xray-thc-data/tree/master/data_access_notebooks) before use):
+Relevant notebooks:
 1. [Pulling down pixel-level annotations](https://github.com/nerdslab/xray-thc-data/blob/master/data_access_notebooks/annotation_access.ipynb)
 2. [Pulling down raw data and pixel-level annotations jointly](https://github.com/nerdslab/xray-thc-data/blob/master/data_access_notebooks/training_data_access.ipynb)
 
