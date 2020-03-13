@@ -56,8 +56,8 @@ Relevant notebooks:
 Python notebooks for pulling down the data from BossDB, along with an instructional README, are provided in the "data_access_notebooks" directory.
 
 # Team
-- Aishwarya H. Balwani
-- Eva L. Dyer
-- William Gray Roncal
-- Erik C. Johnson
-- Joseph D. Miano
+- Aishwarya H. Balwani (AishwaryaHB)
+- Eva L. Dyer (evadyer)
+- William Gray Roncal (wrgr)
+- Erik C. Johnson (erikjohnson24)
+- Joseph D. Miano (jmiano)
