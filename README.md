@@ -1,5 +1,5 @@
 # Thalamocortical sample imaged with X-ray microCT
-__A three-dimensional X-ray microtomography thalamocortical dataset for characterizing brain heterogeneity__: [Paper](http://bossdb.org/project/prasad2020), [Data](http://bossdb.org/project/prasad2020)
+A three-dimensional X-ray microtomography thalamocortical dataset for characterizing brain heterogeneity : [Paper](http://bossdb.org/project/prasad2020), [Data](http://bossdb.org/project/prasad2020)
 
 General requirements to run code associated with this project are <b>Python 3.x</b> and <b>Jupyter Notebook</b>. Additionally, to pull down the data from bossDB, we make use of [blosc](https://pypi.org/project/blosc/), [intern](https://pypi.org/project/intern/), and [numpy](https://pypi.org/project/numpy/), all of which can be installed via [pip](https://docs.python.org/3/installing/index.html).
 
