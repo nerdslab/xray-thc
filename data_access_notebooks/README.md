@@ -1,7 +1,13 @@
 # Example Code for Access and Manipulation of X-ray Microtomography data in BossDB
 ### "A three-dimensional X-ray microtomography dataset for characterizing heterogeneity across brain areas" (Prasad et al.)
 
-This repository provides example jupyter (https://jupyter.org/) notebooks for access and visualization of the data described in the paper "A three-dimensional X-ray microtomography dataset for characterizing heterogeneity across brain areas". Examples are provided to access arbitrary cutouts of the data and key human-annotated Regions of Interest (ROIs). Annotations include blood vessels, cell bodies, and white matter.  Also provided are scripts for pulling training data and interploated annotations from around an ROI. Finally, example workflows, compatible with the SABER project, are provided to deploy tools, such as segmentation algorithms, to the entire dataset.
+This repository provides example Jupyter notebooks for access and visualization of the data described in the paper "A three-dimensional X-ray microtomography dataset for characterizing heterogeneity across brain areas". 
+
+The paper introduces a 3D neuroanatomical dataset which encompasses both heterogeneous ROIs and diverse microstructures including: axons, cell bodies and blood vessels (vasculature). An in vitro sample was used in slice physiology and imaged with X-ray microCT. The overall dataset is 720x1420x5805 pixels, with a 1.17um isotropic voxel volume. Cutouts outside of this volume will return 0 values. _Note: Z slices containing tissue range from index 15-680. Beyond this, the volume is padded with mostly dark pixels. All raw images are type unit8, and all annotations are type uint64._
+
+The dataset contains regions of cortex (CTX), zona incerta (ZI), ventral posterior thalamic nucleus (VP), thalamic reticular nucleus (TRN), striatum (STR), hypothalamus (HYP).
+
+The notebooks below provide examples for how to access arbitrary cutouts of the data (images), key human-annotated Regions of Interest (ROIs), and pixel-level annotations that include labels for blood vessels, cell bodies, and white matter.  Finally, example workflows, compatible with the SABER project, are provided to deploy tools, such as segmentation algorithms, to the entire dataset.
 
 ## Requirements for Jupyter Notebooks
 * Python 3.x (https://www.python.org/)
@@ -15,14 +21,6 @@ pip install -r requirements.txt
 ```
 
 When using these notebooks, the data at https://bossdb.org/project/prasad2020 is accessed.
-
-The paper introduces a 3D neuroanatomical dataset which encompasses both heterogeneous ROIs and diverse microstructures including: axons, cell bodies and blood vessels (vasculature). An in vitro sample was used in slice physiology and imaged with X-ray microCT. The overall dataset is 720x1420x5805 pixels, with a 1.17um isotropic voxel volume. Cutouts outside of this volume will return 0 values. 
-
-Z slices containing tissue range from index 15-680. Beyond this, the volume is padded with mostly dark pixels. 
-
-All raw images are type unit8, and all annotations are type uint64.
-
-The dataset contains regions of cortex (CTX), zona incerta (ZI), ventral posterior thalamic nucleus (VP), thalamic reticular nucleus (TRN), striatum (STR), hypothalamus, (HYP).
 
 ## Example notebooks
 In the folder data_access, there are the following examples
