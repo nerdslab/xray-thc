@@ -22,11 +22,8 @@ This dataset consists of a 3D brain volume, generated via microCT, spanning from
 Relevant notebooks:
 1. [Pulling down raw data](https://github.com/nerdslab/xray-thc-data/blob/master/data_access_notebooks/raw_data_access.ipynb)
 
-# Annotation Description
-# Brain Area Classification
-Brain area classification annotations are available for all brain areas. Complete human annotations of brain area are available for slices z = 109, 159, 209, 259, 309, 359, 409, 410, and 460. Thus, across each of these 9 slices, every pixel is labeled as belonging to one of the 8 brain areas mentioned in the dataset description. Interpolated annotations were computed and are made available for the slices between the human-annotated ones.
-
-Brain areas were annotated with the following values: Clear Label = 0, Cortex = 1, Striatum = 2, TRN = 3, VP = 4, Zona Incerta = 5, Internal Capsule = 6, Hypothalamus = 7, Corpus Callosum = 8.
+# Brain Area Annotations
+Brain area annotations are available for eight different regions of interest. Complete human annotations of brain area are available for slices z = 109, 159, 209, 259, 309, 359, 409, 410, and 460. Thus, across each of these 9 slices, every pixel is labeled with the following values: Clear Label = 0, Cortex = 1, Striatum = 2, TRN = 3, VP = 4, Zona Incerta = 5, Internal Capsule = 6, Hypothalamus = 7, Corpus Callosum = 8.
 
 <!---
 ![Brain Area Annotation Sample](https://github.com/nerdslab/xray-thc-data/blob/master/images/Brain-Area-Annos.PNG)
