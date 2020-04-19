@@ -3,6 +3,9 @@ A three-dimensional X-ray microtomography thalamocortical dataset for characteri
 
 Python notebooks for pulling down the data from BossDB, along with an instructional README, are provided in the "data_access_notebooks" directory. See the Requirements below needed to use BossDB for data access.
 
+## Getting Started
+If you'd like to get started, check out our [Python notebook](https://github.com/nerdslab/xray-thc/blob/master/analysis_notebooks/Prasad20_analyses.ipynb) for analyzing the microstructure in different ROIs, and generating the analyses provided in Figure 2 and 3 in the paper.
+
 ## Dataset Description
 This dataset consists of a 3D brain volume, generated via microCT, spanning from hypothalamus to cortex. The dataset has dimension 720x1420x5805 (z,y,x), with a 1.17um isotropic voxel volume. The brain areas available are Cortex, Striatum, TRN, VP, Zona Incerta, Internal Capsule, Hypothalamus, and Corpus Callosum. Human-annotated ground truth data are available for both brain area classification and samples for microstructure segmentation of 4 brain areas.
 
@@ -42,9 +45,6 @@ Microstructures were annotated with the following values: background = 0, cells 
 Relevant notebooks:
 1. [Pulling down pixel-level annotations](https://github.com/nerdslab/xray-thc-data/blob/master/data_access_notebooks/annotation_access.ipynb)
 2. [Pulling down raw data and pixel-level annotations jointly](https://github.com/nerdslab/xray-thc-data/blob/master/data_access_notebooks/training_data_access.ipynb)
-
-## Analysis of Pixel-level Features and Microstructure Annotations
-Check out our notebook to analyze the microstructure in different ROIs, and generate the analyses provided in Figure 2 and 3 in the paper. [Notebook Here!](https://github.com/nerdslab/xray-thc/blob/master/analysis_notebooks/Prasad20_analyses.ipynb)
 
 ## Requirements
 General requirements to run code associated with this project are <b>Python 3.x</b> and <b>Jupyter Notebook</b>. Additionally, to pull down the data from bossDB, we make use of [blosc](https://pypi.org/project/blosc/), [intern](https://pypi.org/project/intern/), and [numpy](https://pypi.org/project/numpy/), all of which can be installed via [pip](https://docs.python.org/3/installing/index.html).
