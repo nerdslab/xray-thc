@@ -1,14 +1,7 @@
 # Thalamocortical sample imaged with X-ray microCT
 A three-dimensional X-ray microtomography thalamocortical dataset for characterizing brain heterogeneity : [Paper](http://bossdb.org/project/prasad2020), [Data](http://bossdb.org/project/prasad2020)
 
-## Requirements
-General requirements to run code associated with this project are <b>Python 3.x</b> and <b>Jupyter Notebook</b>. Additionally, to pull down the data from bossDB, we make use of [blosc](https://pypi.org/project/blosc/), [intern](https://pypi.org/project/intern/), and [numpy](https://pypi.org/project/numpy/), all of which can be installed via [pip](https://docs.python.org/3/installing/index.html).
-
-Alternatively, to download all dependancies, navigate to your _local_ version of this repo via the command line and run
-```bash
-pip install -r requirements.txt
-```
-For further details about our versions of specific packages, please check [requirements.txt](https://github.com/nerdslab/xray-thc/blob/master/data_access_notebooks/requirements.txt)
+Python notebooks for pulling down the data from BossDB, along with an instructional README, are provided in the "data_access_notebooks" directory. See the Requirements below needed to use BossDB for data access.
 
 ## Dataset Description
 This dataset consists of a 3D brain volume, generated via microCT, spanning from hypothalamus to cortex. The dataset has dimension 720x1420x5805 (z,y,x), with a 1.17um isotropic voxel volume. The brain areas available are Cortex, Striatum, TRN, VP, Zona Incerta, Internal Capsule, Hypothalamus, and Corpus Callosum. Human-annotated ground truth data are available for both brain area classification and samples for microstructure segmentation of 4 brain areas.
@@ -35,7 +28,7 @@ Relevant notebooks:
 1. [Pulling down area-level annotations](https://github.com/nerdslab/xray-thc-data/blob/master/data_access_notebooks/roi_access.ipynb)
 2. [Pulling down raw data only from ROI of choice](https://github.com/nerdslab/xray-thc-data/blob/master/data_access_notebooks/mask_roi_example.ipynb)
 
-## Pixel-level Annotations
+## Pixel-level Microstructure Annotations
 Microstructure segmentation (of cell bodies, blood vessels, and myelinated axons) are available for 4 regions of interest: Cortex, Striatum, Thalamus (mostly VP and some TRN), and Zona Incerta. For each of these 4 regions, there is a 256x256x360 (x,y,z) volume available for which slice z (0 indexed) = 30, 60, 90, 120, 150, 180, 210, 240, 270, 300, and 330 have been densely annotated.
 
 Microstructures were annotated with the following values: background = 0, cells = 1, blood vessels = 2, myelinated axons = 3.
@@ -50,10 +43,19 @@ Relevant notebooks:
 1. [Pulling down pixel-level annotations](https://github.com/nerdslab/xray-thc-data/blob/master/data_access_notebooks/annotation_access.ipynb)
 2. [Pulling down raw data and pixel-level annotations jointly](https://github.com/nerdslab/xray-thc-data/blob/master/data_access_notebooks/training_data_access.ipynb)
 
-## Data Access
-Python notebooks for pulling down the data from BossDB, along with an instructional README, are provided in the "data_access_notebooks" directory.
+## Analysis of Pixel-level Features and Microstructure Annotations
+Check out our notebook to analyze the microstructure in different ROIs, and generate the analyses provided in Figure 2 and 3 in the paper. [Notebook Here!](https://github.com/nerdslab/xray-thc/blob/master/analysis_notebooks/Prasad20_analyses.ipynb)
 
-# Team
+## Requirements
+General requirements to run code associated with this project are <b>Python 3.x</b> and <b>Jupyter Notebook</b>. Additionally, to pull down the data from bossDB, we make use of [blosc](https://pypi.org/project/blosc/), [intern](https://pypi.org/project/intern/), and [numpy](https://pypi.org/project/numpy/), all of which can be installed via [pip](https://docs.python.org/3/installing/index.html).
+
+Alternatively, to download all dependancies, navigate to your _local_ version of this repo via the command line and run
+```bash
+pip install -r requirements.txt
+```
+For further details about our versions of specific packages, please check [requirements.txt](https://github.com/nerdslab/xray-thc/blob/master/data_access_notebooks/requirements.txt)
+
+## Team
 - Aishwarya H. Balwani ([AishwaryaHB](https://github.com/AishwaryaHB))
 - Eva L. Dyer ([evadyer](https://github.com/evadyer))
 - William Gray Roncal ([wrgr](https://github.com/wrgr))
