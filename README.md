@@ -1,5 +1,5 @@
 # Thalamocortical sample imaged with X-ray microCT
-A three-dimensional X-ray microtomography thalamocortical dataset for characterizing brain heterogeneity : [Paper](http://bossdb.org/project/prasad2020), [Data](http://bossdb.org/project/prasad2020)
+A three-dimensional X-ray microtomography thalamocortical dataset for characterizing brain heterogeneity : [Preprint](https://www.biorxiv.org/content/10.1101/2020.05.22.111617v1), [Data](http://bossdb.org/project/prasad2020)
 
 Python notebooks for pulling down the data from BossDB, along with an instructional README, are provided in the "data_access_notebooks" directory. See the Requirements below needed to use BossDB for data access.
 
